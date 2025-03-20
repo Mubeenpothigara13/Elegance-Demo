@@ -1,0 +1,1092 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;  
+}
+.main{
+    margin: auto;
+}
+
+
+.header{
+    background-color: white;
+    display: flex;
+}
+
+.logo img{
+    height: 70px;
+    width: 200px;
+    margin-left: 280px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nav {
+    padding-top: 25px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    padding: 0; 
+    cursor: pointer;
+}
+
+.nav ul li {
+    text-align: center;
+    padding-left: 20px; 
+    padding-right: 20px;
+    height: 50px;
+    line-height: 50px; 
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: inline-block; 
+    height: 100%;
+}
+
+.nav ul li:hover {
+    background-color: rgb(48, 223, 147);
+}
+
+.nav ul li:hover a {
+    color: white; 
+}
+
+
+
+
+.contain{
+    background-image: url(image/back.png);
+    height: 580px;
+    background-attachment: fixed;
+    position: relative;
+}
+.photo{
+    background-image: url(image/cloud.png);
+    height: 580px;
+    position: relative;
+    text-align: center;
+}
+.image{
+    position: relative;
+    padding-top: 30px;
+}
+.image img{
+    height: 500px;
+    position: relative;
+}
+.overe{
+    height: 580px;
+    position: absolute;
+    width: 100%;
+    background-color: #15181a;
+    opacity: 0.8;
+ }
+
+
+
+.container{
+    background-color: #323a45;
+    text-align: center;
+    margin: auto;
+}
+.container h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+.container h4{
+    padding-bottom: 10px;
+    color: white;
+}
+.ab{
+    border-top: 4px double rgba(255, 255, 255, 0.53);
+    width: 940px;
+    margin: auto;
+}
+.container p{
+    padding: 20px ;
+    color: white;
+    line-height: 20px;
+}
+.container img{
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+
+
+.data{
+    background-image: url(image/parlex.png);
+    height: 550px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.dat{
+    display: flex;
+    height: 550px;
+    position: relative;
+}
+.or{
+height: 550px;
+position: absolute;
+width: 100%;
+background-color: #b36995;
+opacity: 0.8;
+}
+.right{
+    width: 40%;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 300px;
+    position: relative;
+}
+.right h1{
+    color: white;
+    font-size: 65px;
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 40px;
+    border-bottom: 4px double rgba(255, 255, 255, 0.53);
+    padding-bottom: 25px;
+}
+.right p{
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+
+.right button{
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+    margin-right: 30px;
+    color: #FFF;
+    font-weight: 200;
+    padding: 15px;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    font-size: 25px;
+    background-color: #b36995;
+    opacity: 1;
+}
+.right button:hover{
+    background-color: #223C4B;
+    border: 1px solid #223C4B;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.left{
+    width: 60%;
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 50px;
+    position: relative;
+}
+.left img{
+    padding-right: 200px;
+}
+
+
+
+.cont{
+    background-color: #303030;
+    height: 260px;
+    padding-top: 70px;
+}
+.call{
+    display: flex;
+    margin: auto;
+    height: 140px;
+    width: 940px;
+    border: 1px solid white;
+}
+.Right{
+    width: 70%;
+    padding-left: 20px;
+    height: 60px;
+
+}
+.Right h3{
+    font-size: 18px;
+    color: white;
+    padding-top: 30px;
+}
+.Right p{
+    color: #d6d6d6;
+    padding-top: 15px;
+    font-size: 15px;
+    border-right: 3px solid white;
+    height: 70px;
+}
+
+
+
+.Left{
+    padding-top: 30px;
+    width: 30%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Left button{
+    display: block;
+    width: 40%;
+    margin: 25px auto 0px;
+    padding: 9px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    color: #eee;
+    background-color: #303030;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.Left button:hover{
+    background-color: #ED5565;
+    border: #ED5565;
+    color: black;
+}
+
+
+.services{
+    background-image: url(image/parlex.png);
+    height: 672px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.serv{
+    height: 672px;
+    position: relative;
+}
+.ovr{
+    height: 672px;
+    position: absolute;
+    width: 100%;
+    background-color: #800b36ee;
+    opacity: 0.8;
+}
+.serv h1{
+    color: white;
+    /* margin-left: 80px; */
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 100px;
+}
+.serv h3{
+    color: white;
+    padding-top: 10px;
+    /* margin-left: 550px; */
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+.se{
+    border-top: 4px double white;
+    width: 500px;
+    margin-left: 500px;
+    position: relative;
+}
+.serv p{
+    color: white;
+    width: 940px;
+    margin-left: 300px;
+    padding: 10px;
+    line-height: 25px;
+    padding-top: 20px;
+    position: relative;
+}
+.row{
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    width: 940px;
+    position: relative;
+}
+.row1{
+    width: 25%;
+}
+.row1 h4{
+    color: white;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+
+
+.process{
+    background-color: #00c788;
+    height: 650px;
+    text-align: center;
+}
+.process h1{
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.pe{
+    border-top: 4px double rgba(0, 0, 0, 0.23);
+    width: 940px;
+    margin: auto;
+}
+.text{
+    padding-top: 25px;
+    color: #eee;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.col{
+    display: flex;
+    margin-top: 150px;
+    text-align: center;
+    width: 940px;
+    margin: auto;
+}
+.col1{
+    width: 25%;
+}
+.coll1{
+    height: 90px;
+    border: 4px solid white;
+    border-radius: 180px;
+    width: 90px;
+    margin: auto;
+}
+.coll1 i{
+    color: white;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.col1 h3{
+    padding-top: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.col1 p{
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-size: 15px;
+    width: 180px;
+    margin-left: 30px;
+    line-height: 18px;
+}
+.coll1:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 8px solid #00c7888d;
+}
+.coll1:hover i{
+    color: #00c788;
+   
+}
+
+
+.portfolio{
+    background-image: url(image/parlex.png);
+    height: 1000px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.porto{
+    height: 1000px;
+    position: relative;
+}
+.overr{
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(21, 184, 143, 0.99);
+    opacity: 0.8;
+}
+.porto h1{
+    padding-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+.porto h4{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+.folio{
+    margin: auto;
+    border-top: 4px double white;
+    position: relative;
+    width: 940px;
+}
+.porto p{
+    padding-top: 20px;
+    line-height: 24px;
+    color: white;
+    position: relative;
+}
+.box{
+    text-align: center;
+    width: 1170px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.boxx1{
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+}
+.box1{
+    margin-left: 200px;
+    position: relative;
+}
+.box1 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+.overlayy{
+    height: 100%;
+    width: 100%;
+    background-color: #323a45;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.overlayy:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.overlayy h3{
+    color: white;
+    padding-top: 50px;
+}
+.overlayy p{
+    color: #d35e89;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.overlayy button{
+    padding: 5px;
+    background-color: #ED5565;
+    border: none;
+    color: white;
+}
+
+
+.box2{
+    margin-left: 50px;
+    position: relative;
+}
+.box2 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+.box3{
+    margin-left: 50px;
+    position: relative;
+}
+.box3 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+
+.boxx2{
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+}
+.box4{
+    margin-left: 200px;
+    position: relative;
+}
+.box4 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+.box5{
+    margin-left: 50px;
+    position: relative;
+}
+.box5 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+.box6{
+    margin-left: 50px;
+    position: relative;
+}
+.box6 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+
+.boxx3{
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+}
+.box7{
+    margin-left: 200px;
+    position: relative;
+}
+.box7 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+.box8{
+    margin-left: 50px;
+    position: relative;
+}
+.box8 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+.box9{
+    margin-left: 50px;
+    position: relative;
+}
+.box9 img{
+    border: 15px solid white;
+    height: 180px;
+    width: 240px;
+}
+
+
+.plans{
+    background-color: #00b8b1;
+    height: 730px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.plans h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.plans h3{
+    padding-top: 20px;
+    color: #eee;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.pln{
+    border-top: 4px double rgba(0, 0, 0, 0.23);
+    width: 940px;
+    margin: auto;
+}
+.plans p{
+    padding-top: 25px;
+    color: white;
+    line-height: 20px;
+}
+.plan{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    width: 940px;
+    margin: auto;
+}
+.plan1{
+    height: 395px;
+    width: 235px;
+    border: 1px solid #ffce54;
+    border-bottom: 4px solid #ffce54;
+    transition: 1s;
+}
+.plan1:hover:hover {
+    animation: bounceAnimation 0.8s infinite alternate; /* Continuous animation */
+}
+
+/* Keyframes for downward movement and scaling */
+@keyframes bounceAnimation {
+    0% {
+        transform: scale(0.9) translateY(0); /* Original size and position */
+    }
+    100% {
+        transform: scale(1.1) translateY(10px); /* Scaled down and moved downward */
+    }
+}
+
+.Top1{
+    height: 69px;
+    width: 225px;
+    background-color: #ffce54;
+}
+.Top1 h4{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.Bottom p{
+    border-bottom: 2px dashed white;
+    padding-bottom: 20px;
+}
+.btn1 button{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ffce54;
+    border: none;
+}
+.btn1 button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.plan2{
+    height: 395px;
+    width: 235px;
+    border: 1px solid #ED5565;
+    border-bottom: 4px solid #ED5565;
+    margin-left: 30px;
+    transition: 1s;
+}
+.plan2:hover:hover {
+    animation: bounceAnimation 1s infinite alternate; /* Continuous animation */
+}
+
+/* Keyframes for downward movement and scaling */
+@keyframes bounceAnimation {
+    0% {
+        transform: scale(0.9) translateY(0); /* Original size and position */
+    }
+    100% {
+        transform: scale(1.1) translateY(10px); /* Scaled down and moved downward */
+    }
+}
+.Top2{
+    height: 69px;
+    width: 225px;
+    background-color: #ED5565;
+}
+.Top2 h4{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.btn2 button{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ED5565;
+    border: none;
+}
+.btn2 button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.plan3{
+    height: 395px;
+    width: 235px;
+    border: 1px solid #a0d468;
+    border-bottom: 4px solid #a0d468;
+    margin-left: 30px;  
+    transition: 1s;
+}
+.plan3:hover:hover {
+    animation: bounceAnimation 1s infinite alternate; /* Continuous animation */
+}
+
+/* Keyframes for downward movement and scaling */
+@keyframes bounceAnimation {
+    0% {
+        transform: scale(1) translateY(0); /* Original size and position */
+    }
+    100% {
+        transform: scale(0.9) translateY(10px); /* Scaled down and moved downward */
+    }
+}
+.Top3{
+    height: 69px;
+    width: 225px;
+    background-color: #a0d468;
+}
+.Top3 h4{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.btn3 button{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #a0d468;
+    border: none;
+}
+.btn3 button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.plan4{
+    height: 395px;
+    width: 235px;
+    border: 1px solid #fc6e51;
+    border-bottom: 4px solid #fc6e51;
+    margin-left: 30px;
+    transition: 1s;
+}
+.plan4:hover:hover:hover:hover {
+    animation: bounceAnimation 1s infinite alternate; /* Continuous animation */
+}
+
+/* Keyframes for downward movement and scaling */
+@keyframes bounceAnimation {
+    0% {
+        transform: scale(1) translateY(0); /* Original size and position */
+    }
+    100% {
+        transform: scale(0.9) translateY(10px); /* Scaled down and moved downward */
+    }
+}
+.Top4{
+    height: 69px;
+    width: 225px;
+    background-color: #fc6e51;
+}
+.Top4 h4{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.btn4 button{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fc6e51;
+    border: none;
+}
+.btn4 button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.teams{
+    background-image: url(image/team.png);
+    height: 672px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.tem{
+    /* background-color: black; */
+    height: 672px;
+    /* opacity: 0.6; */
+    position: relative;
+}
+.over{
+    height: 672px;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+.tem h1{
+    color: white;
+    text-transform: uppercase;   
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    position: relative;
+}
+.te{
+    width: 940px;
+    margin: auto;
+    border-top: 4px double white;
+    position: relative;
+}
+.teams p{
+    color: white;
+    padding-top: 20px;
+    position: relative;
+}
+
+.team{
+    display: flex;
+    margin: auto;
+    width: 1170px;
+    padding-top: 50px;
+    position: relative;
+}
+.team1{
+    height: 410px;
+    width: 294px;
+    margin: auto;
+}
+.team1:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.tp{
+    background-color: #5ff0c2a4;
+}
+.md{
+    padding-top: 30px;
+    background-color: white;
+    height: 130px;
+}
+.md h3{
+    color: #888888;
+}
+.md p{
+    color: black;
+}
+.bt{
+    background-color: #888888fa;
+    height: 50px;
+    padding: 10px;
+}
+.bt a{
+    padding: 6px;
+}
+
+.team2{
+    height: 410px;
+    width: 294px;
+    margin: auto;
+}
+.team2:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.team3{
+    height: 410px;
+    width: 294px;
+    margin: auto;
+}
+.team3:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+.clients{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+.client{
+    width:700px;
+    padding: 20px;
+    padding-left: 20px;
+    margin-left: 450px;
+}
+.client a img{
+    height: 60px;
+    width: 105px;
+    padding-left: 20px;
+}
+
+
+
+.contact{
+    height: 1468px;
+    background-color: #ffce54;
+    margin: auto;
+}
+.tact{
+    padding-top: 50px;
+    text-align: center;
+}
+.tact h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.tt{
+    border-top: 4px double rgba(0, 0, 0, 0.23);
+    width: 940px;
+    margin: auto;
+}
+.tact p{
+    padding-top: 25px;
+    line-height: 20px;
+    color: white;
+}
+
+.forms{
+    margin-left: 250px;
+    padding: 40px;
+    width: 940px;
+}
+.form{
+    padding: 20px;
+}
+.form label{
+    text-align: left;
+    padding-top: 800px;
+    font-weight: bold;
+}
+.form input{
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    padding: 20px;
+}
+.form textarea{
+    height: 200px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.form button{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+
+.map{
+    height: 400px;
+}
+
+
+.react{
+    display: flex;
+    margin-top: 150px;
+    text-align: center;
+    width: 880px;
+    margin: auto;
+}
+.react1{
+    padding-top: 90px;
+    width: 33.3%;
+}
+.reactt1{
+    height: 90px;
+    border: 4px solid white;
+    border-radius: 180px;
+    width: 90px;
+    margin: auto;
+}
+.reactt1 i{
+    color: white;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.react1 h5{
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.react1 p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 18px;
+}
+.reactt1:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 8px solid #ffcf547b;
+}
+.reactt1:hover i{
+    color: #00c788;
+   
+}
+
+
+
+.footer{
+    background-image: url(image/back.png);
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.footr{
+    height: 400px;
+    position: relative;
+}
+
+.overlay{
+    height: 400px;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+.foot{
+    padding-top: 100px;
+}
+.foot img{
+    padding-bottom: 15px;
+    opacity: 0.9;
+} 
+.foot a{
+    padding: 8px;
+}
+.f{
+    padding-top: 10px;
+    position: relative;
+}
+.f h5{
+    color: #d6d6d6;
+    line-height: 20px;
+    letter-spacing: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.f p{
+    padding-top: 10px;
+    color: white;
+    text-transform: uppercase;
+}
